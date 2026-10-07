@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work | Gourav Bose</title>
+    <meta name="description" content="Portfolio work by Gourav Bose, featuring video editing, motion graphics, and poster design." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="navbar container">
+        <a href="index.html" class="brand" aria-label="Gourav Bose home">
+          <span class="brand-mark">GB</span>
+          <span class="brand-text">creative</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+        <div class="nav-panel">
+          <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="work.html" class="active">Work</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page-main">
+      <section class="page-hero container">
+        <div class="section-head">
+          <p class="eyebrow">My work</p>
+          <h1>Bold visuals built for attention.</h1>
+        </div>
+      </section>
+
+      <section class="portfolio-section container">
+        <div class="work-tabs" aria-label="Portfolio categories">
+          <button class="tab-btn active" data-tab="videos">Video Editing & Reels</button>
+          <button class="tab-btn" data-tab="graphics">Motion Design & Packaging</button>
+          <button class="tab-btn" data-tab="merch">Merchandise & Posters</button>
+        </div>
+
+        <div class="tab-panel active" id="videos">
+          <div class="portfolio-grid">
+            <article class="portfolio-card video-card">
+              <div class="phone-frame">
+                <div class="screen-overlay">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <h3>Cinematic Edit</h3>
+              <p>Dynamic pacing, rhythm cuts, and polished sound design for short-form impact.</p>
+            </article>
+
+            <article class="portfolio-card video-card">
+              <div class="phone-frame">
+                <div class="screen-overlay">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <h3>Social Reel</h3>
+              <p>Trend-driven, punchy edits designed for short attention windows and strong retention.</p>
+            </article>
+
+            <article class="portfolio-card video-card">
+              <div class="phone-frame">
+                <div class="screen-overlay">
+                  <i class="fa-solid fa-play"></i>
+                </div>
+              </div>
+              <h3>YouTube Short</h3>
+              <p>Story-first video sequencing with hooks and strong visual momentum.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="graphics">
+          <div class="portfolio-grid">
+            <article class="portfolio-card design-card">
+              <div class="thumb-card">
+                <span>YT</span>
+              </div>
+              <h3>Thumbnail Concept</h3>
+              <p>CTR-focussed visuals with bold typography and dramatic contrast.</p>
+            </article>
+
+            <article class="portfolio-card design-card">
+              <div class="thumb-card compact">
+                <span>BN</span>
+              </div>
+              <h3>Channel Banner</h3>
+              <p>Brand-first identity design that balances clarity with premium presentation.</p>
+            </article>
+
+            <article class="portfolio-card design-card">
+              <div class="thumb-card accent">
+                <span>MG</span>
+              </div>
+              <h3>Motion Overlay</h3>
+              <p>Animated graphics for transitions, titles, and social media post templates.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="tab-panel" id="merch">
+          <div class="portfolio-grid">
+            <article class="portfolio-card merch-card">
+              <div class="shirt-mockup">
+                <div class="shirt-print">T-SHIRT</div>
+              </div>
+              <h3>Esports Graphic</h3>
+              <p>High-energy jersey and merchandise concepts built for gaming communities.</p>
+            </article>
+
+            <article class="portfolio-card merch-card">
+              <div class="poster-mockup">
+                <div class="poster-print">POSTER</div>
+              </div>
+              <h3>Promotional Poster</h3>
+              <p>Large-format event promos that fuse sharp messaging and visual impact.</p>
+            </article>
+
+            <article class="portfolio-card merch-card">
+              <div class="poster-mockup alt">
+                <div class="poster-print">PROMO</div>
+              </div>
+              <h3>Campaign Collateral</h3>
+              <p>Social graphics and poster layouts designed for clarity, scale, and consistency.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>Thank You!</p>
+        <a href="contact.html" class="footer-link">Let’s work together</a>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
